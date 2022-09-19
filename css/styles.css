@@ -2,6 +2,10 @@
   --title-color: #212121;
   --accent-color: #2196f3;
   --main-color: #757575;
+  --white: #fff;
+  --bg-color: #2f303a;
+  --black: #000;
+  --silver-color: #f5f4fa;
 }
 
 body {
@@ -21,7 +25,7 @@ body {
 }
 
 .logo__decor {
-  color: #000;
+  color: var(--black);
 }
 
 .header__menu,
@@ -51,7 +55,7 @@ body {
 
 /* heroi */
 .heroi {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .heroi__title {
@@ -60,7 +64,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #fff;
+  color: var(--white);
 }
 
 .heroi__button {
@@ -69,7 +73,7 @@ body {
   letter-spacing: 0.06em;
   line-height: 1.87;
   font-weight: 700;
-  color: #fff;
+  color: var(--white);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -127,6 +131,8 @@ body {
 }
 
 .team__name {
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.18;
   color: var(--title-color);
 }
@@ -138,11 +144,11 @@ body {
 
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .footer .logo__decor {
-  color: #fff;
+  color: var(--white);
 }
 .footer__address {
   font-style: normal;
@@ -150,7 +156,7 @@ body {
 
 .address__street {
   line-height: 1.71;
-  color: #fff;
+  color: var(--white);
 }
 
 .address__list {
@@ -172,7 +178,7 @@ body {
   font-family: inherit;
   font-size: 16px;
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: var(--silver-color);
   color: var(--title-color);
   font-weight: 500;
   line-height: 1.62;
@@ -182,7 +188,7 @@ body {
 
 .portfolio__btn:hover,
 .portfolio__btn:focus {
-  color: #fff;
+  color: var(--white);
   background-color: var(--accent-color);
 }
 
